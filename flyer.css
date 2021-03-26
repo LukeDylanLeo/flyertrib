@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Champagne";
+  src: url("Champagne.tff");
+}
+
+#all {
+  background-color: white;
+}
+
+#bandeau {
+  /* background-color: green; */
+  background-color: #313131;
+  padding: 2% 0 2% 0;
+  width: 100%;
+}
+
+#title {
+  padding-left: 2%;
+}
+
+ .title:link {
+  text-decoration: none;
+  color: #7E7E7E;
+}
+
+.title:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.title:visited {
+  color: #7E7E7E;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #272727;
+  padding: 1% 0 1% 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menu-item {
+  font-size: 310%;
+  margin: 3%;
+  transition:all .2s ease-in-out;
+  font-family: "Champagne";
+}
+
+.menu-item:hover {
+  border-bottom: 2px solid #7E7E7E;
+  color: #7E7E7E;
+  font-size: 310%;
+  text-shadow:
+    0 0 10px rgba(0,0,0, 1),
+    0 0 50px rgba(0, 0, 0, .8),
+    0 0 75px rgba(0, 0, 0, .6),
+    0 0 76px rgba(0, 0, 0, .4),
+    0 0 77px rgba(0, 0, 0, .5),
+    0 0 78px rgba(0, 0, 0, .4),
+    0 0 79px rgba(0, 0, 0, .3),
+    0 0 80px rgba(0, 0, 0, .2),
+    0 0 85px rgba(0, 0, 0, .1);
+    font-family: "Champagne";
+}
+
+.item:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.item:hover {
+  text-decoration: none;
+  color: #7E7E7E;
+  font-weight: bold;
+}
+
+#content {
+  background-color: white;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: "Champagne";
+  src: url("Champagne.ttf");
+}
+
+
+h1 {
+  font-family: "Champagne";
+  font-size: 500%;
+  color: #7E7E7E;
+}
+
+
+ /* @media (max-width: 496px) {
+    nav {
+      padding: 4% 4% 4% 4%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1 {
+      text-align: center;
+    }
+} */
+
+h3 {
+  margin-left: 15%;
+  font-size: 400%;
+  font-family: "Champagne";
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+p {
+  font-size: 250%;
+  font-family: "Champagne";
+  margin-left: 2%;
+  text-align: justify;
+  padding: 2% 10% 2% 17%;
+  line-height: 50px;
+}
